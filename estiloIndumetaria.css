@@ -1,0 +1,218 @@
+
+section,footer{
+    margin-right: auto;
+    margin-left: auto;
+    float: center;
+    margin-bottom: 3px;
+}
+h1 {
+    color: #DDDF52;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+h2 {
+    color: #DDDF52;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+}
+h3 {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-align: right;
+    font-size: 60px;
+}
+h4 {
+    color: black;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+h5{
+    color: rgb(2, 21, 2);
+    font-family:'Rubik', sans-serif;
+    text-align: center;
+}
+h6{
+    color:white;
+    font-family:'Rubik', sans-serif;
+    text-align: center;
+    font-size: 30px;
+   padding-top: 20px;
+}
+p {
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    text-align: center;
+}
+.row{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-left: 10px;
+}
+.card-text{
+    color: black;
+}
+.form-control{
+    margin-bottom: 5px;
+}
+.center{
+    height: 200px;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+#titulo1 {
+    height: 150px;
+    width: 100%;
+    float: left;
+    background: url(images/ropahombre.jpg)
+}
+#titulo2 {
+    height: 150px;
+    width: 100%;
+    float: left;
+    background: url(images/probadores.jpg)
+}
+#titulo3 {
+    height: 150px;
+    width: 70%;
+    float: left;
+    background: url(images/nenes.jpg)
+}
+footer {
+    background: -webkit-linear-gradient(top, black 70%, #DDDF52);
+    height: 200px;
+}
+#ofertas {
+    background: -webkit-linear-gradient(top, white 80%, #DDDF52);
+    height: 1000px;
+}
+#ofertas_cont1{
+    margin-top: 10px;
+}
+#ofertatitulo{
+    height: 120px; 
+}
+#ofertatitulo1{
+    height: 120px; 
+}
+#ofertatitulo2{
+    height: 120px; 
+}
+#oferta1 {
+    background-color:transparent;
+    }
+#oferta2 {
+        background-color:transparent
+        }
+#oferta3 {
+            background-color: transparent
+            }
+.card{
+    border: 0px;
+    background-color: transparent;
+    box-shadow: 0px 1px 5px rgba(0,0,0,0.2);
+    cursor: default;
+    transition: all 400ms ease;
+}
+.card:hover{
+    box-shadow: 5px 5px 10px rgb(0,0,0,0.4);
+    transform: translateY(-3%);
+}
+.card-body{
+    text-align: center;
+    padding: 15px;
+}
+
+#utilidades{
+    margin-top: 20px;
+}
+#utili1{
+    background-color: #DDDF52;
+}
+#utili2{
+    background-color: rgb(188, 28, 28);
+}
+#utili3{
+    border-radius: 30px;
+}
+#contacto{
+    height: 300px;
+}
+.btn{
+    border: 3px solid;
+}
+.btn-group{
+    margin-left: 200px;
+    margin-top: 20px;
+}
+.btn-dark{
+    color: #DDDF52;
+    border-color:#DDDF52;
+   
+    
+}
+.btn-dark:hover{
+  
+    color: #0c0c0c;
+    background-color: #DDDF52;
+    border-color: #0c0c0c;
+   
+}
+
+@media all and (min-width: 600px) and (max-width: 1023px) {
+    header,
+    section,
+    footer {
+        
+        margin-right: none;
+        margin-left: none;
+        padding: 0;
+    }
+    #titulo {
+        height: 70px;
+       
+        float: left;
+        background-color: #DDDF52;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    h6{
+        font-size: 20px;
+        padding: 20px;
+    }
+}
+
+@media all and (max-width: 599px) {
+    header,
+    section,
+    footer {
+        width: 100%;
+        height: auto;
+        margin-right: none;
+        margin-left: none;
+    }
+  
+    h3 {
+        font-size: 25px;
+    }
+    h4 {
+        font-size: 15px;
+    }
+    #ofertas{
+        height: 1500px;
+    }
+    h6{
+        font-size: 15px ;
+        padding: 10px;
+    }
+}
